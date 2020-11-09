@@ -36,7 +36,7 @@ namespace ContactsApp
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NewContactWindow newContactWindow = new NewContactWindow();
-            newContactWindow.ShowDialog(); //it blocks the app until the dialog is done.
+            newContactWindow.ShowDialog(); 
 
             ReadDatabase();
 
